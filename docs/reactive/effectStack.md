@@ -1,7 +1,7 @@
 # 嵌套的effect与effect栈
 
 ## vue的生命周期钩子
-![vue的生命周期](./images/lifecycle.png)
+![vue的生命周期](../images/lifecycle.png)
 
 ### 父子组件的生命周期呢？？？
 父beforeCreate -> 父created -> 父beforeMount -> 子beforeCreate -> 子created -> 子beforeMount -> 子mounted -> 父mounted->父beforeUpdate->子beforeUpdate->子updated->父updated->父beforeDestroy->子beforeDestroy->子destroyed->父destroyed

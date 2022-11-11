@@ -31,7 +31,7 @@ data.doing = '随便吧'
 
 ```
 
-![运行代码结果](./images/effect-%E5%88%86%E6%94%AF%E5%88%87%E6%8D%A2%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C.jpg)
+![运行代码结果](../images/effect-%E5%88%86%E6%94%AF%E5%88%87%E6%8D%A2%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C.jpg)
 
 执行上面会发现，在我们修改完 isHungry为false 后，修改doing属性，依旧调用了li这个副作用。但是，isHungry为false 后，不期望触发副作用，因为并没有在副作用中使用doing。
 
