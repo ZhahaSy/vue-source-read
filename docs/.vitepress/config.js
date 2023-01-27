@@ -1,5 +1,6 @@
 export default {
     title: 'Vue-source-read',
+    base: "/vue-source-read/",
     description: '个人vue3设计与实现阅读笔记',
     themeConfig: {
         logo: '/logo.jpeg',
@@ -37,5 +38,5 @@ export default {
             }
             
         ]
-      }
+    },
   }
