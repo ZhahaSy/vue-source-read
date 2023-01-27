@@ -8,8 +8,8 @@ export default {
             {
                 text: '响应系统',
                 items: [
-                    {text: '初识', link: '/reactive/hello', next: 'reactiveData'},
-                    {text: '响应式数据', link: '/reactive/reactiveData', next: 'firstReactive'},
+                    {text: '初识', link: '/reactive/hello.md'},
+                    {text: '响应式数据', link: '/reactive/reactiveData'},
                     {text: '简单的响应系统', link: '/reactive/firstReactive'},
                     {text: '副作用的收集', link: '/reactive/effectBucket'},
                     {text: '分支切换与cleanup', link: '/reactive/cleanup'},
