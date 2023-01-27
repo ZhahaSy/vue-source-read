@@ -35,7 +35,7 @@ obj.count++
 
 ## 拆分功能
 1. computed 生成的也是一个 响应式的数据，既然是响应式数据，就要考虑 get与 set的操作
-2. computed 所计算出来的值，应该是一个 Ref<T>
+2. computed 所计算出来的值，应该是一个 ```Ref<T>```
 
 3. 
 
